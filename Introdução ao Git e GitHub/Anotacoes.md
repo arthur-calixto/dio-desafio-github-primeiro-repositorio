@@ -30,7 +30,7 @@ Commits - Da significancia para o conjunto de alterações realizadas, que por s
 Chave SSH - Forma de estabelecer uma conexão segura entre duas máquinas.
 comandos para gerar chave SSH
 ssh-keygen -t ed25519 -C + e-mail
-Exemplo: ssh-keygen -t ed25519 -C thaynara-calixto@outlook.com
+Exemplo: ssh-keygen -t ed25519 -C arthur-calixto@hotmail.com
 
 para inicializar o SSH: eval $(ssh-agent -s)
 
@@ -40,4 +40,4 @@ Git init - Iniciar um repositório.
 Git status - para ver o status do repositório
 Git Add - usamos o git add * || git add. || git add + nome do arquivo
 Git Commit - git commit -m "msg"
-Para subir o commit para o GitHub - git push origin master
+Para subir o commit para o GitHub - git push origin master
